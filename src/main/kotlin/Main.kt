@@ -28,9 +28,9 @@ fun main(args: Array<String>){
         3 -> {
             //EJERCICIO 3
 
-            printFinalTemperature(27.0,"Celsius","Farenheit", { temperature: Double -> (9*temperature)/5 + 32})
+            printFinalTemperature(27.0,"Celsius","Farenheit", { temperature: Double -> (9.0*temperature)/5.0 + 32.0})
             printFinalTemperature(350.0,"Kelvin","Celsius", { temperature: Double -> temperature-273.15})
-            printFinalTemperature(10.0,"Farenheit","Kelvin", { temperature: Double -> (5/9)*(temperature-32)+273.15})
+            printFinalTemperature(10.0,"Farenheit","Kelvin", { temperature: Double -> ((5.0/9.0)*(temperature-32.0))+273.15})
 
         }
     }
